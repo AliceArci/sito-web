@@ -1,0 +1,163 @@
+ body{
+    background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  color: #fff;
+ }
+
+img{
+    max-width: 100%;
+}
+
+header{
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+header p{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a{
+    color: #666;
+}
+
+header nav a:hover{
+    color: #fff;
+     text-decoration: underline;
+}
+section.info{
+    background-color: #2b1c2b;
+padding: 64px 16px;
+}
+
+section.info h1{
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 68px;
+}
+ 
+ footer{
+     background-color: #f4f4f4
+     padding: 30px;
+ }
+ 
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ 
+ 
+
+ .text p .class{
+   text-align: 
+    font-size:  600px
+    color: #333;
+    font-weight: bolder;
+
+ }
+
+ .container{
+display: flex;
+justify-content: center;
+gap: 40px;
+padding: 20px;
+ }
+
+ .item{
+    display: flex;
+    justify-content: space-between;
+   text-align:  left;
+    width: 70%;
+    margin:10px 
+ }
+ 
+ .item img{
+    width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+
+ }
+ 
+ .item p{
+    font-size: 18px;
+   margin-top: 10px;
+ margin: 30px;
+ }
+ 
+ .container{
+    min-width: 800px;
+    margin: auto;
+    text-align: left;
+ }
+
+ .testo{
+    margin-bottom: 20px;
+ }
+
+ p{
+    font-size: 18px
+   
+ }
+
+ .immagine img{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+ }
+ .dimensione{
+  font-size: 50px;
+  margin-top: 200px;
+  text-align:  center;
+  color: rgb(255, 255, 255);
+ }
+
+ .toy{
+    width: 30%;
+ }
+
+ .contatti{
+  bottom: 10px;
+  float: right
+  padding-bottom: ;
+    right: 10px;
+    background-color: rgba(red, green, blue, alpha);
+ color:white;
+ padding: 10px;
+ border-radius: 5px;
+ z-index: 1000;
+}
+.contatti a{
+    color: lightblue;
+    text-decoration: none;
+}
+
+.contatti a:hover{
+    text-decoration: underline;
+}
